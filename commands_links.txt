@@ -1,0 +1,25 @@
+------------------------------------------------------------
+docker build -t tweetspringfinal .
+docker login
+docker tag tweetspringfinal 7893521601/springdockerfinal
+docker push 7893521601/springdockerfinal
+-----------------------------------------------------------
+docker build -t tweetangularfinal .
+docker login
+docker tag tweetangularfinal 7893521601/angulardockerfinal
+docker push 7893521601/angulardockerfinal
+-----------------------------------------------------------
+
+Docker images
+
+7893521601/springdockerfinal
+7893521601/angulardockerfinal
+
+-------------------------------------------
+ Final URL
+
+http://18.218.171.97/
+
+Swagger URL
+
+http://18.222.217.3:8222/swagger-ui.html#!/tweet-application-controller/getAllUsersUsingGET
